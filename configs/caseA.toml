@@ -1,0 +1,13 @@
+# Configuration file
+
+[settings]
+nSteps = 500 # number of time steps
+tEnd = 0.5 # specified end time
+
+[geometry]
+meshName = "bay.msh" # name of the computational mesh
+borders = [ [0.0, 0.45], [0.0, 0.2]] # borders of fishing grounds
+
+[IO]
+logName = "log_A" # name of the logfile
+#writeFrequency = 20

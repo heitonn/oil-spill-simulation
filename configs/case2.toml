@@ -1,0 +1,13 @@
+# Configuration file
+
+[settings]
+nSteps = 400 # number of time steps
+tEnd = 0.25 # specified end time
+
+[geometry]
+meshName = "bay.msh" # name of the computational mesh
+borders = [ [0.2, 0.65], [0.1, 0.2]] # borders of fishing grounds
+
+[IO]
+logName = "log" # name of the logfile
+writeFrequency = 15 # frequency of output video. If not provided, no video is recorded
